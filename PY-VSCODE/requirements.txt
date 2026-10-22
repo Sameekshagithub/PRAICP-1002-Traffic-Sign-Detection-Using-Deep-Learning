@@ -1,0 +1,11 @@
+tensorflow>=2.16
+keras-tuner>=1.4
+streamlit>=1.50
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+pillow>=9.1
+requests
+tqdm

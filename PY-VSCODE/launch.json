@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Streamlit app",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "streamlit",
+      "args": ["run", "app.py"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Train (quick dry-run)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "train.py",
+      "args": ["--quick"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Train (skip tuning, faster)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "train.py",
+      "args": ["--skip-tuning"],
+      "console": "integratedTerminal"
+    }
+  ]
+}
